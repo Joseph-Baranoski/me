@@ -20,7 +20,6 @@ docs/.vitepress/cache
 .nyc_output
 example/dist
 package-lock.json
-pnpm-lock.yaml
 
 .vite-ssg-dist
 .vite-ssg-temp

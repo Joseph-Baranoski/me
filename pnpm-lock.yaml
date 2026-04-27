@@ -134,14 +134,112 @@ importers:
         specifier: ^5.4.5
         version: 5.8.3
 
-  sites/cyberbowl:
+  sites/archive/portfolio-hp:
+    dependencies:
+      '@georgedoescode/generative-utils':
+        specifier: ^2.0.1
+        version: 2.0.1
+      '@iconify/vue':
+        specifier: ^5.0.0
+        version: 5.0.0(vue@3.5.13(typescript@5.8.3))
+      '@me/ui-lib':
+        specifier: workspace:*
+        version: link:../../../packages/ui-lib
+      '@svgdotjs/svg.js':
+        specifier: ^3.2.4
+        version: 3.2.4
+      gsap:
+        specifier: ^3.13.0
+        version: 3.13.0
+      simplex-noise:
+        specifier: ^4.0.3
+        version: 4.0.3
+      vue:
+        specifier: ^3.5.13
+        version: 3.5.13(typescript@5.8.3)
+      vue-router:
+        specifier: ^4.5.1
+        version: 4.5.1(vue@3.5.13(typescript@5.8.3))
+    devDependencies:
+      '@me/config-lib':
+        specifier: workspace:*
+        version: link:../../../packages/config-lib
+      '@vitejs/plugin-vue':
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
+      autoprefixer:
+        specifier: ^10.4.21
+        version: 10.4.21(postcss@8.5.3)
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      tailwindcss:
+        specifier: ^3.4.17
+        version: 3.4.17(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.8.3))
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+      vite:
+        specifier: ^6.3.4
+        version: 6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2)
+      vite-plugin-webpackchunkname:
+        specifier: 1.0.1
+        version: 1.0.1(rollup@4.40.1)
+      vue-tsc:
+        specifier: ^2.2.10
+        version: 2.2.10(typescript@5.8.3)
+
+  sites/archive/portfolio-hs:
     dependencies:
       '@me/canvas-lib':
         specifier: workspace:*
-        version: link:../../packages/canvas-lib
+        version: link:../../../packages/canvas-lib
       '@me/ui-lib':
         specifier: workspace:*
-        version: link:../../packages/ui-lib
+        version: link:../../../packages/ui-lib
+      vue:
+        specifier: ^3.5.13
+        version: 3.5.13(typescript@5.8.3)
+      vue-router:
+        specifier: ^4.5.1
+        version: 4.5.1(vue@3.5.13(typescript@5.8.3))
+    devDependencies:
+      '@me/config-lib':
+        specifier: workspace:*
+        version: link:../../../packages/config-lib
+      '@vitejs/plugin-vue':
+        specifier: ^5.2.3
+        version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
+      autoprefixer:
+        specifier: ^10.4.21
+        version: 10.4.21(postcss@8.5.3)
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      tailwindcss:
+        specifier: ^3.4.17
+        version: 3.4.17(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.8.3))
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+      vite:
+        specifier: ^6.3.4
+        version: 6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2)
+      vite-plugin-webpackchunkname:
+        specifier: 1.0.1
+        version: 1.0.1(rollup@4.40.1)
+      vue-tsc:
+        specifier: ^2.2.10
+        version: 2.2.10(typescript@5.8.3)
+
+  sites/playground/cyberbowl:
+    dependencies:
+      '@me/canvas-lib':
+        specifier: workspace:*
+        version: link:../../../packages/canvas-lib
+      '@me/ui-lib':
+        specifier: workspace:*
+        version: link:../../../packages/ui-lib
       '@vueuse/core':
         specifier: ^10.9.0
         version: 10.9.0(vue@3.5.13(typescript@5.8.3))
@@ -166,7 +264,7 @@ importers:
     devDependencies:
       '@me/config-lib':
         specifier: workspace:*
-        version: link:../../packages/config-lib
+        version: link:../../../packages/config-lib
       '@types/lodash-es':
         specifier: ^4.17.12
         version: 4.17.12
@@ -198,11 +296,11 @@ importers:
         specifier: ^2.0.19
         version: 2.2.10(typescript@5.8.3)
 
-  sites/investment-gpt:
+  sites/playground/investment-gpt:
     dependencies:
       '@me/ui-lib':
         specifier: workspace:*
-        version: link:../../packages/ui-lib
+        version: link:../../../packages/ui-lib
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.3)
@@ -212,7 +310,7 @@ importers:
     devDependencies:
       '@me/config-lib':
         specifier: workspace:*
-        version: link:../../packages/config-lib
+        version: link:../../../packages/config-lib
       '@vitejs/plugin-vue':
         specifier: ^5.2.3
         version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
@@ -238,14 +336,14 @@ importers:
         specifier: ^2.2.10
         version: 2.2.10(typescript@5.8.3)
 
-  sites/portfolio:
+  sites/portfolio/play:
     dependencies:
       '@me/canvas-lib':
         specifier: workspace:*
-        version: link:../../packages/canvas-lib
+        version: link:../../../packages/canvas-lib
       '@me/ui-lib':
         specifier: workspace:*
-        version: link:../../packages/ui-lib
+        version: link:../../../packages/ui-lib
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.3)
@@ -255,105 +353,7 @@ importers:
     devDependencies:
       '@me/config-lib':
         specifier: workspace:*
-        version: link:../../packages/config-lib
-      '@vitejs/plugin-vue':
-        specifier: ^5.2.3
-        version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
-      autoprefixer:
-        specifier: ^10.4.21
-        version: 10.4.21(postcss@8.5.3)
-      postcss:
-        specifier: ^8.5.3
-        version: 8.5.3
-      tailwindcss:
-        specifier: ^3.4.17
-        version: 3.4.17(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.8.3))
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-      vite:
-        specifier: ^6.3.4
-        version: 6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2)
-      vite-plugin-webpackchunkname:
-        specifier: 1.0.1
-        version: 1.0.1(rollup@4.40.1)
-      vue-tsc:
-        specifier: ^2.2.10
-        version: 2.2.10(typescript@5.8.3)
-
-  sites/portfolio-hp:
-    dependencies:
-      '@georgedoescode/generative-utils':
-        specifier: ^2.0.1
-        version: 2.0.1
-      '@iconify/vue':
-        specifier: ^5.0.0
-        version: 5.0.0(vue@3.5.13(typescript@5.8.3))
-      '@me/ui-lib':
-        specifier: workspace:*
-        version: link:../../packages/ui-lib
-      '@svgdotjs/svg.js':
-        specifier: ^3.2.4
-        version: 3.2.4
-      gsap:
-        specifier: ^3.13.0
-        version: 3.13.0
-      simplex-noise:
-        specifier: ^4.0.3
-        version: 4.0.3
-      vue:
-        specifier: ^3.5.13
-        version: 3.5.13(typescript@5.8.3)
-      vue-router:
-        specifier: ^4.5.1
-        version: 4.5.1(vue@3.5.13(typescript@5.8.3))
-    devDependencies:
-      '@me/config-lib':
-        specifier: workspace:*
-        version: link:../../packages/config-lib
-      '@vitejs/plugin-vue':
-        specifier: ^5.2.3
-        version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
-      autoprefixer:
-        specifier: ^10.4.21
-        version: 10.4.21(postcss@8.5.3)
-      postcss:
-        specifier: ^8.5.3
-        version: 8.5.3
-      tailwindcss:
-        specifier: ^3.4.17
-        version: 3.4.17(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.8.3))
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-      vite:
-        specifier: ^6.3.4
-        version: 6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2)
-      vite-plugin-webpackchunkname:
-        specifier: 1.0.1
-        version: 1.0.1(rollup@4.40.1)
-      vue-tsc:
-        specifier: ^2.2.10
-        version: 2.2.10(typescript@5.8.3)
-
-  sites/portfolio-hs:
-    dependencies:
-      '@me/canvas-lib':
-        specifier: workspace:*
-        version: link:../../packages/canvas-lib
-      '@me/ui-lib':
-        specifier: workspace:*
-        version: link:../../packages/ui-lib
-      vue:
-        specifier: ^3.5.13
-        version: 3.5.13(typescript@5.8.3)
-      vue-router:
-        specifier: ^4.5.1
-        version: 4.5.1(vue@3.5.13(typescript@5.8.3))
-    devDependencies:
-      '@me/config-lib':
-        specifier: workspace:*
-        version: link:../../packages/config-lib
+        version: link:../../../packages/config-lib
       '@vitejs/plugin-vue':
         specifier: ^5.2.3
         version: 5.2.3(vite@6.3.4(@types/node@20.14.2)(jiti@2.4.2)(yaml@2.4.2))(vue@3.5.13(typescript@5.8.3))
@@ -686,9 +686,6 @@ packages:
   '@jridgewell/set-array@1.2.1':
     resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
-
-  '@jridgewell/sourcemap-codec@1.4.15':
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
@@ -2160,9 +2157,6 @@ packages:
     resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
 
-  magic-string@0.30.10:
-    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
-
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
@@ -3386,8 +3380,6 @@ snapshots:
 
   '@jridgewell/set-array@1.2.1': {}
 
-  '@jridgewell/sourcemap-codec@1.4.15': {}
-
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@jridgewell/trace-mapping@0.3.25':
@@ -3679,7 +3671,7 @@ snapshots:
       '@vue/compiler-ssr': 3.4.27
       '@vue/shared': 3.4.27
       estree-walker: 2.0.2
-      magic-string: 0.30.10
+      magic-string: 0.30.17
       postcss: 8.5.3
       source-map-js: 1.2.0
 
@@ -5051,10 +5043,6 @@ snapshots:
   lodash@4.17.21: {}
 
   lru-cache@10.2.2: {}
-
-  magic-string@0.30.10:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
 
   magic-string@0.30.17:
     dependencies:

@@ -19,6 +19,18 @@
   "dependencies": {
     "vue": "^3.4.27"
   },
+  "scripts": {
+    "work": "pnpm --filter @me/work run dev",
+    "work:build": "pnpm --filter @me/work run build",
+    "play": "pnpm --filter @me/play run dev",
+    "play:build": "pnpm --filter @me/play run build",
+    "cyberbowl": "pnpm --filter @me/cyberbowl run dev",
+    "invest": "pnpm --filter @me/investment-gpt run dev",
+    "api": "pnpm --filter @me/api run dev",
+    "archive:hp": "pnpm --filter @me/portfolio-hp run dev",
+    "archive:hs": "pnpm --filter @me/portfolio-hs run dev",
+    "canvas-lib:build": "pnpm --filter @me/canvas-lib run build:types"
+  },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -39,17 +51,5 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3"
-  },
-  "scripts": {
-    "canvas-lib:build": "pnpm --filter @me/canvas-lib run build:types",
-    "cyberbowl": "pnpm --filter @me/cyberbowl run dev",
-    "invest": "pnpm --filter @me/investment-gpt run dev",
-    "portfolio": "pnpm --filter @me/portfolio run dev",
-    "portfolio:build": "pnpm --filter @me/portfolio run build",
-    "portfolio-hp": "pnpm --filter @me/portfolio-hp run dev",
-    "portfolio-hp:build": "pnpm --filter @me/portfolio-hp run build",
-    "portfolio-hs": "pnpm --filter @me/portfolio-hs run dev",
-    "portfolio-hs:build": "pnpm --filter @me/portfolio-hs run build",
-    "api": "pnpm --filter @me/api run dev"
   }
 }
